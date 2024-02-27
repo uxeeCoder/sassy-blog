@@ -1,0 +1,79 @@
+$primarycolor: #728f09;
+$secondarycolor: #d2c320;
+$backgroundcolorLight: #a2c918;
+$backgroundcolorMed: #154715;
+$backgroundcolorDark: #116411;
+$font: times;
+$weight: 400;
+$borderRadius: 5px;
+$boxShadow: 4px 4px 10px #051e05;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $secondarycolor;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $primarycolor;
+  width: 50%;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  box-shadow: $boxShadow;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.card {
+  background-color: $secondarycolor;
+  border-radius: $borderRadius;
+  box-shadow: $boxShadow;
+  padding: 1rem;
+  margin: 1rem;
+  font-family: $font;
+  text-align: auto ;
+  width: auto;
+  &__header {
+    font-family: $font;
+    font-size: 1.5rem;
+    font-weight: $weight;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: $backgroundcolorMed;
+    border-radius: $borderRadius;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+    &:hover {
+      background-color: $secondarycolor;
+      color: black;
+    }
+    &--less {
+      background-color: $backgroundcolorDark;
+    }
+  }
+  &__body {
+    padding: 1rem;
+    font: $font;
+    color: #333;
+    background-color: $primarycolor;
+    border-radius: $borderRadius;
+    box-shadow: $boxShadow;
+  }
+}
