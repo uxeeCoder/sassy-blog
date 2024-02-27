@@ -1,1 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d2c320;
+}
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #728f09;
+  width: 50%;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  box-shadow: 4px 4px 10px #051e05;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.card {
+  background-color: #d2c320;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px #051e05;
+  padding: 1rem;
+  margin: 1rem;
+  font-family: times;
+  text-align: auto;
+  width: auto;
+}
+.card__header {
+  font-family: times;
+  font-size: 1.5rem;
+  font-weight: 400;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 1rem;
+}
+.card__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #154715;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+.card__button:hover {
+  background-color: #d2c320;
+  color: black;
+}
+.card__button--less {
+  background-color: #116411;
+}
+.card__body {
+  padding: 1rem;
+  font: times;
+  color: #333;
+  background-color: #728f09;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px #051e05;
+}/*# sourceMappingURL=styles.css.map */
