@@ -4,27 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SASS</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="SaSS/main.css" />
   </head>
   <body>
+    <header class="header">
+      <nav class="header__nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <h1>SASS Practice!</h1>
+      <h1>SASS Blog!</h1>
       <section class="card">
-        <header class="card__header">A Simple Card</header>
+        <header class="card__header">Overview</header>
         <div class="card__body">
-          This is card body. SASS is used to create card component with a
-          header, body and footer. Variables are defined for styling components.
-          BEM naming conventions used to create meaningful class names for HTML
-          elements.
+          SASS is used to create this card component with a header, body and
+          footer. Variables are defined for styling components. BEM naming
+          conventions used to create meaningful class names for HTML elements.
 
           <div class="flex">
             <div class="card__footer">
-              <div class="card__button">Read More</div>
-              <div class="card__button card__button--less">Read Less</div>
+              <div>
+                <a href="dashboard.html" class="card__button">Learn More</a>
+              </div>
+              <!-- <div class="card__button card__button--less">Read Less</div> -->
             </div>
           </div>
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div>© 2024 SASS Blog</div>
+    </footer>
   </body>
 </html>
