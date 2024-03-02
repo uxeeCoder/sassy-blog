@@ -1,0 +1,13 @@
+@import "abstracts/variables";
+@import "base/base";
+@import "abstracts/mixin";
+@import "layout/pre-layout";
+@import "pages/index";
+@import "components/header";
+@import "components/footer";
+@import "components/card";
+@import "components/buttons";
+
+// @import "base/typography";
+// @import "pages/dashboard-layout";
+// (File not needed anymore as code was moved to _header.scss)

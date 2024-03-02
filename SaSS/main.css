@@ -1,0 +1,151 @@
+pre::-webkit-scrollbar {
+  height: 2px; /* width of the entire scrollbar */
+}
+
+pre::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the tracking area */
+}
+
+pre::-webkit-scrollbar-thumb {
+  background-color: #888; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 2px solid #f1f1f1; /* creates padding around scroll thumb */
+}
+
+/* For Firefox */
+pre {
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scrollbar-color: #888 #f1f1f1; /* thumb and track color */
+}
+
+.card__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2c320;
+  color: #ffffff;
+  border-radius: 7px;
+  box-shadow: 4px 4px 10px #051e05;
+  transition: background-color 0.3s ease;
+}
+.card__button:hover {
+  background-color: #797113;
+}
+
+.card {
+  font-family: times;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+pre {
+  width: 100%;
+  overflow-x: auto;
+}
+
+section {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d2c320;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #728f09;
+  width: 50%;
+  border-radius: 7px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: 4px 4px 10px #051e05;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.header {
+  font-family: times;
+  font-size: 1.5rem;
+  font-weight: 400;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.header__nav ul {
+  background-color: #576404;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 5px;
+  box-shadow: 4px 4px 10px #051e05;
+  list-style: none;
+  border-radius: 7px;
+}
+.header__nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #576404;
+  color: #ffffff;
+  box-shadow: 4px 4px 10px #051e05;
+  border-radius: 7px;
+  margin: 5px;
+  font-family: times;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.card {
+  background-color: #d2c320;
+  border-radius: 7px;
+  box-shadow: 4px 4px 10px #051e05;
+  padding: 2rem;
+  margin: 1rem;
+  font-family: times;
+  text-align: auto;
+  width: auto;
+}
+.card__header {
+  font-family: times;
+  font-size: 1.5rem;
+  font-weight: 400;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.card__button {
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.card__button:visited {
+  color: #ffffff;
+}
+.card__body {
+  padding: 1rem;
+  font: times;
+  color: black;
+  background-color: #728f09;
+  border-radius: 7px;
+  box-shadow: 4px 4px 10px #051e05;
+}/*# sourceMappingURL=main.css.map */
