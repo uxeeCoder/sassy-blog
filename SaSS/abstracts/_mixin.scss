@@ -1,13 +1,13 @@
 // Create and apply mixins for day 3 assignment
 
-// Flexbox Mixin created for mixin assignment
+// Flexbox Mixin created for mixin assignment to style the card overall
 @mixin flex-layout($justify: center, $align: center) {
   display: flex;
   justify-content: $justify;
   align-items: $align;
 }
 
-// Button Mixin created for mixin assignment
+// Button Mixin created for mixin assignment to style the button on the card
 @mixin button-style($secondary-color, $text-color, $border-radius: 7px) {
   display: flex;
   justify-content: center;
@@ -26,7 +26,7 @@
   @include button-style($secondary-color, $text-color);
 }
 
-// Typography Mixin created for mixin assignment
+// Typography Mixin created and applied to card's typography
 @mixin font-style($font-family, $font-size, $line-height) {
   font-family: $font-family;
   font-size: $font-size;
